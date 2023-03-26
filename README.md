@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# ReactJs-API-CRUD
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1.	Introduction : 
+  L'objectif de ce rapport est de présenter le travail réalisé dans le cadre d'un projet d'application CRUD en React.js utilisant l'API Json-server, le React Router et le Context API.
+  
+2.	Présentation de l'application : 
+  L'application CRUD développée est un gestionnaire de tâches qui permet à l'utilisateur de créer, lire, mettre à jour et supprimer des tâches. L'application est construite en utilisant React.js et utilise une API Json-server pour stocker les données des tâches.
+  
+3.	Fonctionnalités : 
+   L'application est dotée des fonctionnalités suivantes :
 
-## Available Scripts
+* Afficher la liste des tâches : L'utilisateur peut visualiser la liste de toutes les tâches enregistrées dans l'API. Les tâches sont triées par ordre de création.
+*	Créer une nouvelle tâche : L'utilisateur peut créer une nouvelle tâche en renseignant un titre et une description. La date de création est automatiquement ajoutée.
+*	Modifier une tâche existante : L'utilisateur peut modifier le titre et la description d'une tâche existante.
+*	Supprimer une tâche : L'utilisateur peut supprimer une tâche existante.
 
-In the project directory, you can run:
+4.	Technologies utilisées : 
+  L'application est construite en utilisant les technologies suivantes :
+  
+*	React.js : React.js est utilisé pour créer les composants de l'application.
+*	API Json-server : L'API Json-server est utilisée pour stocker les données des tâches.
+*	React Router : React Router est utilisé pour gérer la navigation entre les différentes pages de l'application.
+*	Context API : Context API est utilisé pour stocker l'état global de l'application et le partager entre les différents composants.
 
-### `npm start`
+Conclusion : En conclusion, ce projet a permis de développer une application CRUD en utilisant React.js, l'API Json-server, le React Router et le Context API. L'application est fonctionnelle et permet à l'utilisateur de gérer ses tâches de manière efficace. Ce projet a également permis de mettre en pratique les concepts clés de React.js et de renforcer la compréhension des technologies utilisées.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+--------------------------------------***    Pour lancer app     ***-------------------------------------------
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1- npm start
+2- json-server --watch db.json --port 8000
