@@ -1,0 +1,34 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "zakaria",
+      "email": "zakaria@gmail.com",
+      "phone": "06888349283"
+    },
+    {
+      "name": "ahmed",
+      "email": "ahmed@gmail.com",
+      "phone": "0661666676",
+      "id": 2
+    },
+    {
+      "name": "fatima",
+      "email": "fatima@gmail.com",
+      "phone": "0661906766",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "hassan",
+      "email": "hassan@gmail.com",
+      "phone": "0661666878"
+    },
+    {
+      "name": "kamal",
+      "email": "kamal@gmail.com",
+      "phone": "0661666474",
+      "id": 5
+    }
+  ]
+}
