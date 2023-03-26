@@ -1,5 +1,7 @@
 # ReactJs-API-CRUD
 
+realiser par : zakariyaa nouaoui (IFSMD-M2)
+
 1.	Introduction : 
   L'objectif de ce rapport est de présenter le travail réalisé dans le cadre d'un projet d'application CRUD en React.js utilisant l'API Json-server, le React Router et le Context API.
   
